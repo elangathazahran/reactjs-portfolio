@@ -1,0 +1,50 @@
+export const Datas = [
+    {
+        id: 1,
+        category: 'education',
+        icon: 'icon-graduation',
+        year: '2018 - 2021',
+        title: 'SMPIT Fathan Mubina',
+        desc: 'Pendidikan di Pondok Pesantren SMPIT Fathan Mubina mengembangkan karakter disiplin, tanggung jawab, dan keterampilan sosial, meskipun saya tidak memiliki pengalaman teknis langsung di bidang IT.',
+    },
+    {
+        id: 2,
+        category: 'education',
+        icon: 'icon-graduation',
+        year: '2018 - 2021',
+        title: 'SMK Wikrama Bogor',
+        desc: 'Jurusan Rekayasa Perangkat Lunak dan Gim di SMK Wikrama Bogor memberikan keterampilan pengembangan website dan aplikasi, serta pengalaman praktis dalam teknologi frontend dan backend.',
+    },
+    {
+        id: 3,
+        category: 'education',
+        icon: 'icon-graduation',
+        year: 'Agustus - Desember 2024',
+        title: 'Global Gengou Gakko',
+        desc: 'Kursus Bahasa Jepang intensif di Global Gengou Gakko meningkatkan kemampuan bahasa Jepang saya ke level N4, meliputi tatabahasa, kosakata, dan keterampilan berbicara serta menulis.',
+    },
+    {
+        id: 4,
+        category: 'experience',
+        icon: 'icon-briefcase',
+        year: 'Juli - Desember 2023',
+        title: 'Frontend Web Developer Intern',
+        desc: 'Sebagai Intern Frontend di PT Kreasi Sawala Nusantara, saya mengembangkan dan mengoptimalkan tampilan serta pengalaman pengguna situs web menggunakan HTML, CSS, dan JavaScript.',
+    },
+    {
+        id: 5,
+        category: 'experience',
+        icon: 'icon-briefcase',
+        year: 'Mei 2024',
+        title: 'Uji Kompetisi',
+        desc: "Mengikuti Uji Kompetensi dengan membuat website menggunakan Laravel sebagai evaluasi kelayakan kelulusan dari SMK. Proses ini melibatkan perancangan, pengembangan, dan penyelesaian proyek sesuai dengan standar industri."
+    },
+    {
+        id: 6,
+        category: 'experience',
+        icon: 'icon-briefcase',
+        year: 'Maret 2024 - Present',
+        title: 'Freelance',
+        desc: 'Sebagai freelance web developer, saya mengerjakan proyek pengembangan website dengan fokus pada desain responsif dan pengalaman pengguna yang optimal, serta berkomunikasi langsung dengan klien.',
+    },
+];
