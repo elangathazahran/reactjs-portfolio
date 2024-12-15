@@ -139,12 +139,20 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
 }
 
 @keyframes button-push {
   50% {
     transform: scale(0.8);
-  } 100% {
+  }
+  100% {
     transform: scale(1);
   }
 }
