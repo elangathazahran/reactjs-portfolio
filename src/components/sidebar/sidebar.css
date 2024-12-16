@@ -60,6 +60,46 @@
   transition: .3s;
 }
 
+/* scroll-up */
+.scroll-up {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: #ddd;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.4s ease;
+  border: 5px solid transparent;
+  background-clip: padding-box;
+  z-index: 10001;
+}
+
+.scroll-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-up a {
+  position: absolute;
+  z-index: 10px;
+  color: var(--color-primary);
+  border-radius: 50%;
+  background-color: #fff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* end styles of scroll-up */
+
 @media screen and (max-width: 1024px) {
   .aside {
     left: -110px;

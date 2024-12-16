@@ -28,9 +28,10 @@ const Home = () => {
         <h1 className="home__name">Elang Atha Zahran</h1>
 
         <span className="home__education">
+          <span>I'm a, </span>
           <TypeAnimation
             sequence={[
-              "I'm a Fullstack Web Developer",
+              "Fullstack Web Developer",
               2000,
               "UI/UX Designer",
               2000,

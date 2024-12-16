@@ -151,7 +151,7 @@ img {
 @keyframes button-push {
   50% {
     transform: scale(0.8);
-  }
+  }npm
   100% {
     transform: scale(1);
   }

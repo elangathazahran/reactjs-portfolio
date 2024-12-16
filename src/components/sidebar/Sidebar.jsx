@@ -64,6 +64,11 @@ const Sidebar = () => {
       <div className={ toogle ? "nav__toogle nav__toogle-open" : "nav__toogle" } onClick={() => showMenu(!toogle)}>
         <i className="icon-menu"></i>
       </div>
+      <div class="scroll-up">
+        <a href="#">
+          <i class="bi bi-arrow-up-short"></i>
+        </a>
+      </div>
     </>
   )
 }
