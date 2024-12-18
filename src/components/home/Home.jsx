@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './home.css';
-import Avatar from '../../assets/avatar-1.svg';
+import Avatar from '../../assets/me.png';
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';

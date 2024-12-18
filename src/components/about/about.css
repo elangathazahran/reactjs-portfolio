@@ -26,6 +26,11 @@
   top: 20%;
 }
 
+.about__img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .about__description {
   margin-bottom: 1rem;
   text-align: justify;
@@ -103,7 +108,7 @@
 
 @media screen and (max-width: 1024px) {
   .about__container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 450px;
     justify-content: center;
     row-gap: 1.875rem;
   }
@@ -118,6 +123,8 @@
 
   .about__img {
     justify-self: center;
+    max-width: 150px;
+    width: 100%;
   }
 
   .about__box {
@@ -142,4 +149,9 @@
         row-gap: 1.5rem;
         justify-content: center;
     }
+}
+@media screen and (max-width: 576px) {
+  .about__container {
+    grid-template-columns: 1fr;
+  }
 }

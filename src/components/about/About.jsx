@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './about.css'
-import Image from '../../assets/avatar-2.svg'
+import Image from '../../assets/me-2.png'
 import AboutBox from './AboutBox'
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
   const handleDownload = () => {
     setButtonText("Downloading...");
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1-CmKgjkOUphiI26pQzVaJuqIVucHVd25";
+    link.href = "https://drive.google.com/uc?export=download&id=1FntLcWTenznEq5fyZrFMIS30agVsD3tZ"; // Link download langsung
     link.download = "Elang_Atha_CV.pdf";
     document.body.appendChild(link);
     link.click();

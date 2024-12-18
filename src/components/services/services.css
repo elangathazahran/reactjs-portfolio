@@ -55,6 +55,11 @@
 }
 @media screen and (max-width: 768px) {
   .services__container {
+    grid-template-columns: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .services__container {
     grid-template-columns: 1fr;
   }
 }
