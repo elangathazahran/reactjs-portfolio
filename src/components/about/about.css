@@ -52,6 +52,7 @@
 
 .skills__number {
   line-height: 1.2;
+  transition: all 1s ease-in-out;
 }
 
 .skills__bar,
@@ -67,6 +68,7 @@
 .skills__percentage {
   display: block;
   background-color: var(--first-color);
+  transition: width 1.5s ease-in-out;
 }
 
 .html {
@@ -106,6 +108,21 @@
   font-size: 1.875rem;
 }
 
+.counter-container {
+  display: inline-flex;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+}
+
+.counter-number {
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
   .about__container {
     grid-template-columns: 450px;
@@ -129,26 +146,26 @@
 
   .about__box {
     flex-direction: column;
-    row-gap: .5rem;
+    row-gap: 0.5rem;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 768px) {
-    /* .about__data::before {
+  /* .about__data::before {
         left: 47%;
     } */
 
-    .about__data {
-        grid-template-columns: 1fr;
-        row-gap: 1.875rem;
-    }
+  .about__data {
+    grid-template-columns: 1fr;
+    row-gap: 1.875rem;
+  }
 
-    .about__boxes {
-        grid-template-columns: repeat(2, 150px);
-        row-gap: 1.5rem;
-        justify-content: center;
-    }
+  .about__boxes {
+    grid-template-columns: repeat(2, 150px);
+    row-gap: 1.5rem;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 576px) {
   .about__container {
